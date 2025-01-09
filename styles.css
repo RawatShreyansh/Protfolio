@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: editorial;
+    src: url(assests/fonts/EditorialNew-Light.ttf);
+}
+@font-face {
+    font-family: canopee;
+    src: url(assests/fonts/Canopee.ttf);
+}
+@font-face{
+    font-family: domaine;
+    src: url(assests/fonts/DomaineDispCondMedium.ttf);
+}
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'editorial', sans-serif;
+    background-color: #C4BDB3;
+}
+
+.main{
+    background-color: #222;
+    overflow-x: hidden;
+}
+#page1{
+    height: 110vh;
+    width: 100vw;
+    background-color: #C4BCB3;
+    position: relative;
+    overflow: hidden;
+}
+
+#nav{
+    background-color: #C4BCB3;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    padding: 2.8vw 2vw;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+}
+
+#nav img{
+    height: 1.9vw;
+    width:30%;
+}
+
+#nav h5{
+    letter-spacing: 0;
+    width: 30%;
+    font-size: 1.8vh;
+    line-height: 2vh;
+    font-weight: 100;
+}
+
+#nav i{
+    width: 30%;
+    text-align: right;
+}
+
+#ele{
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5vw 3.5vw;
+}
+
+#ele1 {
+    width: 30%;
+    height: 100%;
+}
+
+#ele2 {
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid #807C75;
+    border-left: 1px solid #807C75;
+    text-align: center;
+}
+
+#ele3 {
+    width: 30%;
+    height: 100%;
+    
+}
+
+#ele1 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#ele3 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#image-div:hover img{
+    transform: scale(1.1);
+}
+
+#ele1 h4{
+    font-size: 2.5rem;
+    margin-top: .9vw;
+    margin-bottom: 20px;
+    font-family: 'canopee', sans-serif;
+}
+
+#ele1 h4 span{
+    background-color: #B43B12;
+    color: #C4BDB3;
+    font-weight: 100;
+    font-size: 2rem;
+    padding: .1vw .25vw 0;
+    border-radius: .2vw;
+    margin-left: .4vw;
+}
+
+#ele1 p{
+    font-size: 1.8rem;
+    font-weight: 100;
+    font-family: 'editorial', sans-serif;
+}
+
+#ele3 h4{
+    font-size: 2.5rem;
+    margin-top: .9vw;
+    margin-bottom: 20px;
+    font-family: 'canopee', sans-serif;
+}
+
+#ele3 h4 span{
+    background-color: #B43B12;
+    color: #C4BDB3;
+    font-weight: 100;
+    font-size: 2rem;
+    padding: .1vw .25vw 0;
+    border-radius: .2vw;
+    margin-left: .4vw;
+}
+
+#ele3 p{
+    font-size: 1.8rem;
+    font-weight: 100;
+    font-family: 'editorial', sans-serif;
+}
+
+#ele2 h2{
+    font-weight: 100;
+    font-size: 6.5rem;
+    font-family: 'canopee', sans-serif;
+}
+
+#ele2 h3{
+    font-size: 4rem;
+    margin: .9vw 0;
+    font-weight: 100;
+}
+
+#ele2 h6{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+#page1 h1{
+    font-family: 'canopee', sans-serif;
+    font-weight: 100;
+    font-size: 55vh;
+    background-color: #1C1C19;
+    color: #C4BCB3;
+    letter-spacing: -0.5vw;
+    line-height: 28vw;
+    width: 96vw;
+    margin: 2vw;
+}
+
+#page2{
+    height: 125vh;
+    width: 100vw;
+    background-color: #C4BCB3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5vw 1.5vw;
+}
+
+#page2-left{
+    height: 100%;
+    width: 30vw;
+    padding-right: 3vw;
+    border-right: 1px solid #222;
+}
+#page2-left h2{
+    text-transform: uppercase;
+    font-family: 'canopee', sans-serif;
+    font-size: 10rem;
+    font-weight: 100;
+    text-align: center;
+    line-height: 8vw;
+}
+
+#page2-left h2 span{
+    font-size: 18rem;
+    font-weight: 500;
+}
+
+#page2-left img{
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2-left p{
+    font-size: 2.5em;
+    margin-top: 1.5vw;
+    line-height: 1.7vw;
+    text-align: justify;
+    position: relative;
+}
+
+#page2-left p span{
+    font-size: 6rem;
+    background-color: #1B1B19;
+    color: #C1BAB0;
+    float: left;
+    font-weight: bold;
+    margin: 0.5vw;
+    padding: 1vw;
+    line-height: 2.8vw;
+}
+
+#page2-right{
+    height: 100%;
+    width: 60vw;
+    padding: 0 1vw;
+}
+
+#page2-right img{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2-right h1{
+    padding: 1.6vw ;
+    font-family: 'domaine', sans-serif;
+    font-size: 9rem;
+    font-weight: 500;
+    line-height: 6vw;
+}
